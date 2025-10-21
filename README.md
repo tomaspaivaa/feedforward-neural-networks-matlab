@@ -40,7 +40,7 @@ Each image was converted into a **25×25 binary matrix**, representing pixel val
 
 ## Experiments
 
-All network configurations and results are detailed in **[ExperiencesCr.xlsx](ExperiencesCr.xlsx)**.  
+All network configurations and results are detailed in **[Experiences.xlsx](Experiences.xlsx)**.  
 This file includes all tests, accuracy values and parameter comparisons performed during experimentation.
 
 ### Default Configuration
