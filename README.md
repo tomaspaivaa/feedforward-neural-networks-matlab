@@ -1,4 +1,4 @@
-# Feedforward Neural Networks — Shape Classification in MATLAB
+# Feedforward Neural Networks — Geometric Shape Classification MATLAB
 
 A MATLAB-based project developed using the **Deep Learning Toolbox**, focused on designing and training **Feedforward Neural Networks** for geometric shape classification.  
 The goal was to create, evaluate and optimize networks capable of identifying different shapes from binary image datasets.
