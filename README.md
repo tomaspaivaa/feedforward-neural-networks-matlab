@@ -38,9 +38,47 @@ The datasets were organized as follows:
 
 Each image was converted into a **25×25 binary matrix**, representing pixel values used as inputs for the neural network.
 
+## Project Stages
+
+The project was structured into several stages, each designed to progressively enhance the Feedforward Neural Network’s ability to classify geometric shapes.
+
+### a) Initial Training – Start Dataset
+i. Converted images from the **Start** folder (5 per shape) into **25×25 binary matrices** using MATLAB image processing.  
+ii. Trained a simple **feedforward neural network** with 1 hidden layer (10 neurons) to recognize all shapes.  
+iii. Tested alternative topologies (more neurons/layers) and compared accuracy across configurations.
+
+### b) Extended Training – Train Dataset
+i. Used the **Train** folder (50 images per shape) to build and evaluate different network configurations.  
+ii. Compared results by varying:
+   - Topology (layers and neurons)  
+   - Activation and training functions  
+   - Data division ratios (train/validation/test)  
+   Recorded global and test accuracies, as well as confusion matrices.  
+
+iii. Saved the **three best-performing models** for later analysis.
+
+### c) Combined Evaluation – Start, Train, and Test Datasets
+i. Tested the best models on all datasets to assess generalization.  
+ii. Retrained the top networks with **Test** data and compared performance improvements.  
+iii. Trained using **all images combined** to evaluate overall accuracy.  
+iv. Saved the **three best final networks** for future use.
+
+### d) Manual Drawings Classification
+i. Created a **Draw** dataset (5 new hand-drawn images per shape).  
+ii. Converted drawings into binary matrices and classified them using the best trained networks.  
+iii. Observed generalization behavior and analyzed misclassifications.
+
+### e) MATLAB Graphical Interface
+i. Developed a **MATLAB GUI** that allows:  
+   - Configuration of network topology and parameters  
+   - Selection of training/activation functions  
+   - Training, saving, and loading networks  
+   - Classifying datasets or hand-drawn shapes  
+   - Displaying confusion matrices and results
+
 ## Experiments
 
-All network configurations and results are detailed in **[Experiences.xlsx](Experiences.xlsx)**.  
+All network configurations and results are detailed in **[ExperiencesCr.xlsx](ExperiencesCr.xlsx)**.  
 This file includes all tests, accuracy values and parameter comparisons performed during experimentation.
 
 ### Default Configuration
@@ -66,7 +104,6 @@ Average Accuracy (5 runs):
 Global: 81.33% (±6.91)
 Test: 40.00% (±14.14)
 ```
-
 ---
 
 *This work was completed as part of the “Knowledge and Reasoning” course during the 2024/2025 academic year.*
