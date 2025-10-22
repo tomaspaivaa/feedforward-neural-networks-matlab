@@ -106,4 +106,4 @@ Test: 40.00% (±14.14)
 ```
 ---
 
-*This work was completed as part of the “Knowledge and Reasoning” course during the 2024/2025 academic year.*
+*This work was completed as part of the “Knowledge and Reasoning” course during the 2024/2025 academic year in a group of 2 members. (Grade: 9 out of 10)*
